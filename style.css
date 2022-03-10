@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(77, 1, 77), rgb(255, 168, 7));
+}
+
+#header >h1{
+    text-align: center;
+}
+
+#menu {
+    border: 1px solid black;
+}
+
+hr{
+    border: black solid;
+}
+
+
+
+.game >h2{
+    text-align: right;
+}
+
+.game >img{
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+}
+.game > p{
+    text-align: right;
+}
+
+
+#gallery{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 20px;
+}
+
+.gallery-image{
+   
+   padding: 20px;
+   height: 250px;
+   width: 250px;
+}
